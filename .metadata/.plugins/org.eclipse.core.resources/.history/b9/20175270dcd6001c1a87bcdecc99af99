@@ -1,0 +1,10 @@
+package com.shi;
+
+public class StudentObjectDetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

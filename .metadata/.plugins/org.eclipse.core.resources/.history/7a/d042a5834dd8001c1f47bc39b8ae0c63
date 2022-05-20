@@ -1,0 +1,35 @@
+package com.shi;
+
+public class displayStudentDetails {
+	
+	int roll;
+	
+	String name;
+	
+	int marks;
+	
+	void funA(int roll, String name, int marks) {
+		
+		System.out.println("roll: "+roll);
+		
+		System.out.println("name: "+name);
+		
+		System.out.println("marks: "+marks);
+		
+	}
+
+	public static void main(String[] args) {
+		
+		StudentObjectDetails s1 = new StudentObjectDetails();
+		
+		s1.roll = 10;
+		
+		s1.name = "Shivani Gupta";
+		
+		s1.marks = 10;
+		
+		s1.funA(s1.roll,s1.name,s1.marks);
+
+	}
+
+}
