@@ -1,0 +1,24 @@
+Q1. What is the difference between the static and the non-static variables of a class explain it with an example?
+
+Ans. Static Variables- It belongs to class. It can be accessed using className.memberName. It initializes with default values at the time of class loading. All objects of a class share a single copy of static variables.
+
+     Non-Static Variables- It belong to object. It can be accessed using objectName, memberName. It initializes with default values at the time of object creation. Each object has one local copy of the non-static variables.
+
+Example-
+		
+		package com.shi;
+
+		public class StaticNonStatic 
+		{
+			int y = 21;
+			void fun1() 
+			{
+				System.out.println("this is Function");
+			}
+			public static void main(String[] args) 
+			{
+				StaticNonStatic d1 = new StaticNonStatic();
+				System.out.println(d1.y);
+				d1.fun1();
+			}
+		}
